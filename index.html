@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QA Engineer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            padding-top: 4rem;
+            background-color: black;
+        }
+
+        .hero {
+            background-color: black;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+
+        .animated-btn:hover {
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.8), 0 0 20px rgba(0, 123, 255, 0.6);
+        }
+
+        img.svg-image {
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+        }
+
+
+        .section-title {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        h2.section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background-color: blue;
+            margin-top: 8px auto;
+            /*border-radius: 2px;*/
+        }
+
+        footer {
+            /*background-color: #343a40;*/
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Mohammad Alfi Rizzi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="https://github.com/mohammadalfirizzi" target="_blank">
+                            <i class="bx bxl-github"></i>
+                        </a>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container" data-aos="fade-up">
+            <div class="text-center">
+                <img src="profile.jpeg" class="rounded-circle" alt="Profil-Mohammad-Alfi-Rizzi" width="150"
+                    height="150">
+            </div>
+            <h1 class="display-5 text-white">Mohammad Alfi Rizzi</h1>
+            <p class="lead text-white">Software Quality Assurance Engineer || Odoo ERP </p>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <span id="typing-text" class="lead text-white"></span>
+                </div>
+            </div>
+            <a href="https://www.linkedin.com/in/mohammad-alfi-rizzi-100962155/"
+                class="btn btn-success mt-4 animated-btn" target="_blank">Get in touch</a>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="about" id="about">
+        <div class="container" data-aos="fade-up">
+            <h2 class="section-title text-white">About Me</h2>
+            <p class="text-white">
+                Software Quality Assurance Engineer specializing in Odoo ERP with hands-on experience in testing Odoo
+                module
+                add-ons. Proficient in manual and automation testing, currently enhancing skills in Playwright for
+                automation and Locust for performance testing. Background in web development using PHP and Laravel, with
+                foundational knowledge in server administration and Linux systems. Passionate about digital technology,
+                with
+                expanding interests in automation testing, performance testing, project management, and business
+                analysis.
+                Committed to continuous learning and fostering cross-functional collaboration to deliver high-quality,
+                reliable software solutions
+            </p>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="container" data-aos="fade-up">
+            <h2 class="section-title text-white">Skills</h2>
+            <div class="card p-3 shadow-sm" style="background-color: black; border: 2px solid white;">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="card text-center p-2 h-100 bg-dark">
+                            <div class="card-body">
+                                <img src="assets/img/skill_manual_testing.png" alt="skill_manual_testing.png"
+                                    class="svg-image" width="50" height="50">
+                                <h5 class="card-title text-white mt-4">Manual Testing</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card text-center p-2 h-100 bg-dark">
+                            <div class="card-body">
+                                <img src="assets/img/skill_automation_testing.png" alt="skill_automation_testing.png"
+                                    class="svg-image" width="50" height="50">
+                                <h5 class="card-title text-white mt-4">Automation Testing - Katalon</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card text-center p-2 h-100 bg-dark">
+                            <div class="card-body">
+                                <img src="assets/img/skill_automation_testing.png" alt="skill_automation_testing.png"
+                                    class="svg-image" width="50" height="50">
+                                <h5 class="card-title text-white mt-4">Automation Testing - Playwright</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card text-center p-2 h-100 bg-dark">
+                            <div class="card-body">
+                                <img src="assets/img/skill_performance_testing.png" alt=" skill_performance_testing.png"
+                                    class="svg-image" width="50" height="50">
+                                <h5 class="card-title text-white mt-4">Performance Testing - Locust</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-6 col-md-3">
+                        <div class="card text-center p-2 h-100 bg-dark">
+                            <div class="card-body">
+                                <img src="assets/img/skill_api_testing.png" alt="skill_api_testing.png"
+                                    class="svg-image" width="50" height="50">
+                                <h5 class="card-title text-white mt-4">API Testing</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card text-center p-2 h-100 bg-dark">
+                            <div class="card-body">
+                                <img src="assets/img/skill_git.png" alt="skill_git.png" class="svg-image" width="50"
+                                    height="50">
+                                <h5 class="card-title text-white mt-4">Version Control - Git & GitHub</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card text-center p-2 h-100 bg-dark">
+                            <div class="card-body">
+                                <img src="assets/img/skill_integration.png" alt="skill_integration.png"
+                                    class="svg-image" width="50" height="50">
+                                <h5 class="card-title text-white mt-4">Integration Testing</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card text-center p-2 h-100 bg-dark">
+                            <div class="card-body">
+                                <img src="assets/img/skill_project-management.png" alt="skill_project-management.png"
+                                    class="svg-image" width="50" height="50">
+                                <h5 class="card-title text-white mt-4">Project Management</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title text-white">Contact</h2>
+            <div class="row justify-content-center">
+
+                <!-- Email -->
+                <div class="col-md-4 mb-3">
+                    <div class="d-flex align-items-start">
+                        <div class="text-white">
+                            <img src="assets/img/mail.png" alt="mail.png" class="svg-image" width="25" height="25">
+                            <h5 class="mt-2">Email</h5>
+                            <p class="mb-0">mohammadalfirizzi@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone -->
+                <div class="col-md-4 mb-3">
+                    <div class="d-flex align-items-start">
+                        <div class="text-white">
+                            <img src="assets/img/linkedin-logo.png" alt="linkedin-logo.png" class="svg-image" width="25"
+                                height="25">
+                            <h5 class="mt-2">LinkedIn</h5>
+                            <p class="mb-0">https://www.linkedin.com/in/mohammad-alfi-rizzi-100962155/</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Location -->
+                <div class="col-md-4 mb-3">
+                    <div class="d-flex align-items-start">
+                        <div class="text-white">
+                            <img src="assets/img/location.png" alt="location.png" class="svg-image" width="25"
+                                height="25">
+                            <h5 class="mt-2">Location</h5>
+                            <p class="mb-0">Kediri, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Mohammad Alfi Rizzi Portfolio
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        var typed = new Typed('#typing-text', {
+            strings: [
+                "Software Quality Assurance Engineer with 2+ years of experience, dedicated to delivering high-quality software through effective manual and automated testing strategies. Let’s work together to enhance your business’s growth and success through scalable, high-quality technology solutions."
+            ],
+            typeSpeed: 10,
+            backSpeed: 25,
+            backDelay: 5000,
+            loop: false
+        });
+    </script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
