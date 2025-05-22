@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammad Alfi Rizzi Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            padding-top: 4rem;
+            background-color: black;
+        }
+
+        .hero {
+            background-color: black;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+
+        .animated-btn:hover {
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.8), 0 0 20px rgba(0, 123, 255, 0.6);
+        }
+
+        img.svg-image {
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+        }
+
+
+        .section-title {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        h2.section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background-color: blue;
+            margin-top: 8px auto;
+            /*border-radius: 2px;*/
+        }
+
+        footer {
+            /*background-color: #343a40;*/
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Mohammad Alfi Rizzi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="mailto:mohammadalfirizzi@gmail.com" target="_blank">
+                            <i class="bx bxl-gmail"></i>
+                        </a>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="https://github.com/mohammadalfirizzi" target="_blank">
+                            <i class="bx bxl-github"></i>
+                        </a>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="https://www.linkedin.com/in/mohammad-alfi-rizzi-100962155/"
+                            target="_blank">
+                            <i class="bx bxl-linkedin"></i>
+                        </a>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio -->
+    <section class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="section-title text-white">Portfolio</h2>
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card h-100 bg-black border-white text-white shadow-sm">
+                        <img src="assets/img/project/project_ankes.png" class="card-img-top" alt="project_ankes.png">
+                        <div class="card-body">
+                            <h5 class="card-title">an-Kes</h5>
+                            <p class="card-text">Designed a digital queuing system for hospitals, including UI/UX
+                                mockups in Figma and a working prototype using HTML, CSS, and JavaScript.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="#" class="btn btn-outline-light w-100">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 bg-black border-white text-white shadow-sm">
+                        <img src="assets/img/project/project_distelcom.png" class="card-img-top"
+                            alt="project_distelcom.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Distelcom 1.0</h5>
+                            <p class="card-text">Built and developed a Digital Storytelling Communication app for
+                                children with autism. The system was implemented and validated in collaboration with
+                                FORKASI.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="https://www.youtube.com/watch?v=Fd6jrkxX7Zk&feature=youtu.be"
+                                class="btn btn-outline-light w-100" target="_blank">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 bg-black border-white text-white shadow-sm">
+                        <img src="assets/img/project/project_rema.png" class="card-img-top" alt="project_rema.png">
+                        <div class="card-body">
+                            <h5 class="card-title">ReMa</h5>
+                            <p class="card-text">Built and developed an application for managing digital business area
+                                restrictions.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="https://www.youtube.com/watch?v=cRv3ugX5HsM&feature=youtu.be"
+                                class="btn btn-outline-light w-100" target="_blank">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 bg-black border-white text-white shadow-sm">
+                        <img src="assets/img/project/project_kantinian.png" class="card-img-top"
+                            alt="project_kantinian.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Kantinian</h5>
+                            <p class="card-text">Designed and implemented a student pocket money management application
+                                within 2–3 months. Developed APIs using PHP, covering CRUD operations and transactional
+                                features...</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="https://www.youtube.com/watch?v=cRv3ugX5HsM&feature=youtu.be"
+                                class="btn btn-outline-light w-100" target="_blank">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 bg-black border-white text-white shadow-sm">
+                        <img src="assets/img/project/project_kartala.png" class="card-img-top"
+                            alt="project_kartala.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Kartala</h5>
+                            <p class="card-text">Designed the Kartala app, a donation collection platform supporting
+                                cultural preservation in Surabaya.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="https://www.youtube.com/watch?v=xmnMP3eO6-k&feature=youtu.be"
+                                class="btn btn-outline-light w-100" target="_blank">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 bg-black border-white text-white shadow-sm">
+                        <img src="assets/img/project/project_telkom.png" class="card-img-top" alt="project_telkom.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Website Inventory</h5>
+                            <p class="card-text">Designed and implemented a website application using native HTML, CSS,
+                                and PHP. Integrated with an SQL database and deployed locally for the
+                                Telkom Injoko area. Completed inventory and management features with validation from a
+                                project adviser.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="https://www.youtube.com/watch?v=up5QyFgPjnE&feature=youtu.be"
+                                class="btn btn-outline-light w-100" target="_blank">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 bg-black border-white text-white shadow-sm">
+                        <img src="assets/img/project/project_compro.png" class="card-img-top" alt="project_compro.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Company Profile</h5>
+                            <p class="card-text">Designed a landing page UI using Figma within 3 days, and implemented
+                                the website using WordPress in 14 days, with final validation by the project owner.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="https://www.youtube.com/watch?v=HnpwbxomwY4&feature=youtu.be"
+                                class="btn btn-outline-light w-100" target="_blank">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 bg-black border-white text-white shadow-sm">
+                        <img src="assets/img/project/project_monitoring.png" class="card-img-top"
+                            alt="project_monitoring.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Website Monitoring IoT</h5>
+                            <p class="card-text">Designed and implemented a website monitoring system using Bootstrap
+                                within 4 days. Configured Firebase as a real-time database to integrate with a hardware
+                                system. Enabled users to control and monitor hardware directly through the website via
+                                seamless Firebase integration.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="#" class="btn btn-outline-light w-100" target="_blank">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 bg-black border-white text-white shadow-sm">
+                        <img src="assets/img/project/project_simrs.png" class="card-img-top" alt="project_simrs.png">
+                        <div class="card-body">
+                            <h5 class="card-title">SIM-RS</h5>
+                            <p class="card-text">Implemented and refactored SIMRS using Laravel over 1 year. Developed
+                                hospital queue system and integrated BPJS features, including SEP, control plans, and
+                                operation scheduling via bridging API.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="#" class="btn btn-outline-light w-100" target="_blank">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Mohammad Alfi Rizzi Portfolio
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        var typed = new Typed('#typing-text', {
+            strings: [
+                "Software Quality Assurance Engineer with 2+ years of experience, dedicated to delivering high-quality software through effective manual and automated testing strategies. Let’s work together to enhance your business’s growth and success through scalable, high-quality technology solutions."
+            ],
+            typeSpeed: 10,
+            backSpeed: 25,
+            backDelay: 5000,
+            loop: false
+        });
+    </script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
